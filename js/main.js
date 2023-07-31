@@ -10,7 +10,7 @@ do{
         alert(`Incorrecto, vas ${intentos} de 5 intentos`)
     }
     if(contraGuardada === contraIngresada){
-        console.log(`¡Bienvenido, ${usuarioGuardado}!`)
+        alert("¡Bienvenido, " + usuarioGuardado + "!")
         break
     }
 }while(intentos < 5)
