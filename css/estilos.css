@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(44, 45, 62);
+    color: rgb(149, 149, 255);
+    font-size: 16px;
+}
+body{
+    margin: 10px;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(94, 94, 242);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(94, 94, 242);
+    margin: 10px 0;
+}
+h1{
+    color: rgb(140, 174, 255);
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+span{
+    background-color: rgb(94, 94, 242);
+}
+a{
+    background-color: rgb(94, 94, 242);
+}
+.main__img{
+    margin: 10px;
+    width: 95vw;
+    height: 80vh;
+}
+.tarj__cont{
+    display: flex;
+    justify-content: space-around;
+}
+.tarjetas{
+    padding: 20px 10px;
+    background-color: rgb(146, 66, 221);
+}
+.productos__img{
+    width: 20vw;
+}
+.contact__img{
+    width: 20vw;
+}
+.main__seccionuno{
+    display: flex;
+    flex-direction: column;
+}
+.sec__primerart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.naveg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: rgb(94, 94, 242);
+}
+.ul__nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(94, 94, 242);
+}
+.cont__ulnav{
+    margin: 0 50px;
+    background-color: rgb(94, 94, 242);
+}
+.img__naveg{
+    background-color: rgb(94, 94, 242);
+}
