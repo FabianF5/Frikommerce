@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="multim/favicon.ico" type="image/x-icon">
     <!-- css -->
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- titulo -->
     <title>Frikommerce</title>
 </head>
@@ -30,15 +31,37 @@
                 <h1 id="titulo__inicio">Bienvenido a Frikommerce</h1>
                 <p>Aquí podrás comprar productos otakus/frikis.</p>
                 <p>¡Diviértete comprando: funkopops, camisetas, cosplays, juegos de cartas y muchos otros artículos más!</p>
+                <h2>¡¡Elige lo que más te guste!!</h2>
                 <div id="articulos"></div>
-                <p>¡¡Elige lo que más te guste!!</p>
-                <button id="elige">Elegir</button>
+                <div>
+                    <label for="buscar">Busca lo que quieres:</label>
+                    <input type="text" name="buscar" id="buscador" placeholder="¡Busca!">
+                    <input type="submit" id="elige">
+                </div>
             </article>
             <article class="main__tarj">
                 <ul class="tarj__cont">
                     <li class="tarjetas"><a href="paginas/productos.html"><img class="productos__img" src="multim/Egb_anLWAAIkW4W.jpg" alt="tarjeta a Productos" title="Productos"></a></li>
                     <li class="tarjetas"><a href="paginas/contacto.html"><img class="contact__img" src="multim/81fMu+2G4zL.jpg" alt="tarjeta a Contacto" title="Contacto"></a></li>
                 </ul>
+            </article>
+        </section>
+        <section id="inicia__sesion">
+            <article>
+                <h2>Inicia sesión:</h2>
+            </article>
+            <article>
+                <form id="formulario" action="POST">
+                    <div>
+                        <label for="email">Correo Electrónico:</label>
+                        <input name="email" type="email" placeholder="Pon tu correo" required>
+                    </div>
+                    <div>
+                        <label for="contraseña">Contraseña:</label>
+                        <input name="contraseña" type="password" placeholder="Pon tu contraseña" required>
+                        <input type="submit" id="botonInicioSesion" value="Enviar">
+                    </div>
+                </form>
             </article>
         </section>
     </main>
